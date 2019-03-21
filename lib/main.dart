@@ -28,7 +28,9 @@ class MyAppState extends State<MyApp> {
   }
 }
 
-/* 
+/* Only this code will fetch an entire Websitein Flutter App Having AppBar,
+But Above code Will fetch website without AppBar
+
 import 'package:flutter/material.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 
@@ -57,7 +59,7 @@ class _MyAppState extends State<MyApp>{
       
        appBar: AppBar(
          elevation: 0.0,
-         //  title: Text('HapTap Website'),
+           title: Text('HapTap Website'),
       ), 
       url: "https://www.haptap.in/webapp/",
       withZoom: true,
