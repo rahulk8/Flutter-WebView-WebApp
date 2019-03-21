@@ -1,6 +1,6 @@
 # webviewdemo_regatta
 
-A new Flutter project.
+A new Flutter project.Fetching an entire Website in a Web View without calling any onTap/OnPressed event
 
 ## Getting Started
 
